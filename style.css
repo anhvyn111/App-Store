@@ -1,0 +1,242 @@
+body{
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+/*Store*/
+#more {display: none;}
+
+#bt-search{
+  border: 1px solid white;
+}
+.navbar{
+  background-color: rgb(255, 123, 0);
+}
+.nav-item{
+  margin-left: 5px;
+  margin-right: 5 px;
+}
+
+.card-app:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-img-top:hover{background: rgba(128, 128, 128, 0.856);}
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+.card-app{
+  width: 10rem;
+  height: 15.5rem;
+  margin: 2px;
+}
+
+h6{
+  font-size: 15px;
+  text-align: left;
+}
+.card-publisher, .card-rating{
+  font-size: 13px;
+}
+
+.card-rating{
+  color: rgb(87, 83, 83);
+}
+.app-detail img{
+  border-radius: 15%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.container-appdetail{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.btn-download{
+  background: rgb(255, 123, 0);
+} 
+.btn-download:hover{
+  background: rgba(255, 124, 1, 0.76);
+} 
+
+@media (max-width: 980px) {
+  .container-appdetail{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: none;
+    border: none;
+  }
+    
+  .app-detail .col-lg-3{
+          text-align: center;
+          margin-bottom: 2rem;
+   } 
+   .app-detail .col-lg-6{
+    text-align: center;
+    margin-bottom: 2rem;
+   }
+    .btn-download{
+      width: 90%;
+  } 
+  
+}
+#app-detail-publisher a{
+  color: rgb(255, 123, 0);
+}
+
+.detail-img{
+  overflow-x: auto;
+  width:100%;
+  height: 70%;
+
+}
+.app-img img{
+  width:100%;
+  height: 100%;
+} 
+.app-description{
+  width: 700px;
+}
+.app-description pre{
+  width: 700px;
+  word-break: break-all;
+}
+
+
+
+
+
+ .starrating > input {display: none;} 
+ 
+ .starrating > label:before { 
+   margin: 2px;
+   font-family: "Font Awesome 5 Free";
+   display: inline-block; 
+ }
+
+ .starrating > label
+ {
+   color: #222222;
+ }
+ 
+ .starrating > input:checked ~ label
+ { color: #ffca08 ; }
+ 
+ .starrating > input:hover ~ label
+ { color: #ffca08 ;  }
+ 
+ 
+ .rating_circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 70px;
+  border: 1px none;
+  font-size: 35px;
+}
+.rating_text{
+    margin-top: 38px;
+}
+.stars-outer {
+display: inline-block;
+position: relative;
+font-family: FontAwesome;
+font-size: 20px;
+letter-spacing: 5px;
+}
+
+.stars-outer::before {
+content: "\f006 \f006 \f006 \f006 \f006";
+}
+
+.stars-inner {
+position: absolute;
+top: 0;
+left: 0;
+white-space: nowrap;
+overflow: hidden;
+width: 0;
+}
+
+.stars-inner::before {
+content: "\f005 \f005 \f005 \f005 \f005";
+color: #000000;
+}
+.dark {
+  background-color: #000000;
+}
+
+
+/*Admin page*/
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+
+.listgroup-admin{
+  background-color: rgb(255, 123, 0);
+  color:white;
+}
+
+
+
+/*Developer*/
+.form-uploadapp{
+  display: inline-block;
+}
+
+.card-user{
+  background-color: blue;
+}
+
+
